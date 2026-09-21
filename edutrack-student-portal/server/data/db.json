@@ -1,0 +1,139 @@
+{
+  "students": [
+    {
+      "id": "stu-001",
+      "rollNo": "IT202601",
+      "name": "Aarav Kulkarni",
+      "email": "aarav.k@edutrack.demo",
+      "department": "IT",
+      "year": "Third Year",
+      "attendance": 92,
+      "cgpa": 8.91,
+      "averageScore": 87,
+      "pendingAssignments": 0,
+      "phone": "9876543210"
+    },
+    {
+      "id": "stu-002",
+      "rollNo": "CS202614",
+      "name": "Riya Sharma",
+      "email": "riya.s@edutrack.demo",
+      "department": "CSE",
+      "year": "Third Year",
+      "attendance": 88,
+      "cgpa": 9.12,
+      "averageScore": 91,
+      "pendingAssignments": 1,
+      "phone": "9876501234"
+    },
+    {
+      "id": "stu-003",
+      "rollNo": "IT202619",
+      "name": "Rahul Patil",
+      "email": "rahul.p@edutrack.demo",
+      "department": "IT",
+      "year": "Third Year",
+      "attendance": 68,
+      "cgpa": 6.42,
+      "averageScore": 54,
+      "pendingAssignments": 4,
+      "phone": "9822012345"
+    },
+    {
+      "id": "stu-004",
+      "rollNo": "EC202608",
+      "name": "Sneha Joshi",
+      "email": "sneha.j@edutrack.demo",
+      "department": "ECE",
+      "year": "Second Year",
+      "attendance": 81,
+      "cgpa": 7.84,
+      "averageScore": 74,
+      "pendingAssignments": 1,
+      "phone": "9011012345"
+    },
+    {
+      "id": "stu-005",
+      "rollNo": "ME202611",
+      "name": "Aditya More",
+      "email": "aditya.m@edutrack.demo",
+      "department": "Mechanical",
+      "year": "Final Year",
+      "attendance": 73,
+      "cgpa": 7.02,
+      "averageScore": 66,
+      "pendingAssignments": 2,
+      "phone": "9096123456"
+    },
+    {
+      "id": "stu-006",
+      "rollNo": "IT202625",
+      "name": "Neha Deshmukh",
+      "email": "neha.d@edutrack.demo",
+      "department": "IT",
+      "year": "Third Year",
+      "attendance": 95,
+      "cgpa": 9.31,
+      "averageScore": 93,
+      "pendingAssignments": 0,
+      "phone": "9765012345"
+    },
+    {
+      "id": "stu-007",
+      "rollNo": "EE202603",
+      "name": "Omkar Jadhav",
+      "email": "omkar.j@edutrack.demo",
+      "department": "Electrical",
+      "year": "Second Year",
+      "attendance": 77,
+      "cgpa": 7.44,
+      "averageScore": 69,
+      "pendingAssignments": 3,
+      "phone": "9370012345"
+    },
+    {
+      "id": "stu-008",
+      "rollNo": "CS202629",
+      "name": "Ananya Rao",
+      "email": "ananya.r@edutrack.demo",
+      "department": "CSE",
+      "year": "First Year",
+      "attendance": 90,
+      "cgpa": 8.63,
+      "averageScore": 85,
+      "pendingAssignments": 1,
+      "phone": "8793012345"
+    }
+  ],
+  "attendance": [
+    { "id": "att-1", "studentId": "stu-001", "date": "2026-09-21", "status": "Present" },
+    { "id": "att-2", "studentId": "stu-002", "date": "2026-09-21", "status": "Present" },
+    { "id": "att-3", "studentId": "stu-003", "date": "2026-09-21", "status": "Absent" },
+    { "id": "att-4", "studentId": "stu-004", "date": "2026-09-21", "status": "Present" },
+    { "id": "att-5", "studentId": "stu-005", "date": "2026-09-21", "status": "Present" },
+    { "id": "att-6", "studentId": "stu-006", "date": "2026-09-21", "status": "Present" }
+  ],
+  "assignments": [
+    { "id": "asg-1", "title": "React Component Architecture", "subject": "Web Application Development", "dueDate": "2026-09-25", "totalStudents": 40, "submitted": 31, "status": "Active" },
+    { "id": "asg-2", "title": "Database Normalization", "subject": "DBMS", "dueDate": "2026-09-27", "totalStudents": 40, "submitted": 24, "status": "Active" },
+    { "id": "asg-3", "title": "Graph Algorithms Lab", "subject": "Data Structures & Algorithms", "dueDate": "2026-09-20", "totalStudents": 40, "submitted": 39, "status": "Closed" }
+  ],
+  "analytics": {
+    "attendanceTrend": [
+      { "name": "Mon", "attendance": 86 },
+      { "name": "Tue", "attendance": 89 },
+      { "name": "Wed", "attendance": 84 },
+      { "name": "Thu", "attendance": 91 },
+      { "name": "Fri", "attendance": 88 },
+      { "name": "Sat", "attendance": 82 }
+    ],
+    "performanceTrend": [
+      { "name": "DBMS", "score": 78 },
+      { "name": "DSA", "score": 83 },
+      { "name": "WAD", "score": 88 },
+      { "name": "OOP", "score": 81 },
+      { "name": "CG", "score": 76 },
+      { "name": "Math", "score": 85 }
+    ]
+  }
+}
